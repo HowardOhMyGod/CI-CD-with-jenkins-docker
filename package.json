@@ -1,5 +1,5 @@
 {
-  "name": "mocha_test",
+  "name": "CI-CD-with-jenkins-docker",
   "version": "1.0.1-0",
   "description": "",
   "main": "server.js",
@@ -7,7 +7,7 @@
     "test": "mocha test/**/*.test.js --exit",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Howard Ho",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.2",

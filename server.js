@@ -22,6 +22,9 @@ app.get('/api/books', (req, res) => {
         }, {
             title: "Book1",
             author: "JJ"
+        },{
+            title: "Book2",
+            author: "JJ2"
         }],
         success: true
     });

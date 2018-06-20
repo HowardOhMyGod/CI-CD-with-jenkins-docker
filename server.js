@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.get('/api', (req, res) => {
     res.status(200).send({
-        message: "Welcome to CI/CD! xxxx",
+        message: "Welcome to CI/CD!",
         success: true
     });
 });
